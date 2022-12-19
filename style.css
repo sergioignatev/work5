@@ -1,0 +1,43 @@
+body{margin:0px;
+}
+main{display:flex;
+    background-color: rgb(248 249 254);
+font-family: roboto;}
+
+#left{
+width:250px;
+padding: 25px;
+background: white;
+}
+li{
+    margin-top: 25px;
+}
+.главная{
+  margin-left: 3px;
+    list-style-image: url(pics/web-page-home.png);
+}
+.магазины{
+
+list-style-image: url(pics/shopping-cart.png);
+}
+.промоматериалы{
+    list-style-image: url(pics/megaphone.png);
+}
+.статистика{
+    list-style-image: url(pics/pie-chart.png);
+}
+.баланс{
+    list-style-image: url(pics/wallet.png);
+}
+.данные{
+    list-style-image: url(pics/profile.png);  
+}
+.faq{
+    list-style-image: url(pics/information.png); 
+}
+.техподдержка{
+    list-style-image: url(pics/music-and-multimedia.png); 
+}
+.выход{
+    list-style-image: url(pics/logout.png); 
+}
