@@ -15,7 +15,7 @@ width:auto;
 @media (max-width:700px) {
 #switch{display:block;}
 
-.logos{display: none;}
+.logos{display: none;border-left:1px solid red;}
     .editgreen{margin-bottom: 20px;}
     .inp{width:70%;}
     .submit{width:30%;}
