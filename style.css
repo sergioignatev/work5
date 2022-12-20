@@ -3,7 +3,7 @@ body{margin:0px;
     height:100%;
 }
 #switch{display:none;}
-
+.logos{display: block;}
 *{box-sizing: border-box;}
 button{border:none;
     width:149px;
