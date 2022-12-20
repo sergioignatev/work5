@@ -12,16 +12,22 @@ width:auto;
     .fbottom{padding-top: 0px;margin-left: 20px;}
     #flex{flex-direction: column;}
 }
-@media (max-width:750px) {
+@media (max-width:700px) {
+    .div2{margin-top: 40px;}
     #left{width:100%;}
     #main{flex-direction: column;
         min-height:300vh}
-        .popup{max-width:90%;}
+        .popup{max-width:90%;margin-left: 5%;}
         .nonpopup{margin-right: 0px;}
         #right{margin-left:0px;}
         
-        .right-top,.manage{flex-direction: column-reverse;margin-left: 25px;}
+        .right-top,.manage{flex-direction: column;padding-left: 25px;}
         .top-left{margin-top:10px;}
         .maks{margin-right: 3px;width:auto;}
+        .top-right{margin-top: 30px;}
+        .select{flex-direction: column;}
+        .info{margin-left: 0px;}
+        .pbright{margin-top: 20px;}
+      
         
 }
