@@ -63,7 +63,7 @@ line-height: 21px;
     background:white;
     display:none;
 }
-.nonpopup{margin-right: 124px;height:219px;background: white;padding:26px 33px 34px 31px;}
+.nonpopup{margin-right: 124px;background: white;padding:26px 33px 34px 31px;}
 .nptop{
     display:flex;
     justify-content: space-between;
@@ -95,3 +95,5 @@ margin-top:26px;
     justify-content: space-between;
 }
 
+.b{margin-top:19px;margin-bottom: 34px;}
+.us{margin-top: 29.5px;}
