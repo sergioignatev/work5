@@ -13,6 +13,10 @@ width:auto;
     #flex{flex-direction: column;}
 }
 @media (max-width:700px) {
+#switch{display:block;}
+
+.logos{display: none;}
+    .editgreen{margin-bottom: 20px;}
     .inp{width:70%;}
     .submit{width:30%;}
     .div2{margin-top: 40px;}
