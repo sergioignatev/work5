@@ -63,7 +63,7 @@ line-height: 21px;
     background:white;
     display:none;
 }
-.nonpopup{margin-right: 124px;background: white;padding:26px 33px 34px 31px;}
+.nonpopup{margin-right: 124px;background: white;padding:0px 33px 0px 31px;}
 .nptop{
     display:flex;
     justify-content: space-between;
