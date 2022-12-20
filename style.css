@@ -1,5 +1,12 @@
 body{margin:0px;
 }
+button{border:none;
+    width:149px;
+    height:36px;
+    background:rgb(177 177 177);
+    color:white;
+    font-size: 12px;
+}
 #main{display:flex;
     grid-template-columns:250px auto ;
     background-color: rgb(248 249 254);
@@ -14,14 +21,77 @@ background: white;
 
 }
 .left{margin-top:20px;
-
+color:rgba(125 125 125 1);
 display:flex;
 align-items: center;
+font-size: 14px;
 
-border:1px solid red;
 }
 .leftimg{
     margin-right:20px;
     width:20px;
     aspect-ratio: 1;
 }
+#right{
+margin-left:100px;
+margin-top: 22px;
+width:100%;
+margin-right: 22px;
+
+}
+.logos{margin-top:37px;}
+.create{
+    color:white;
+    border:none;
+    width:185px;
+    height:36px;
+    background:rgb(85 201 123);
+    margin-top:66px;
+}
+.right-top{width:100%;
+display: flex;
+justify-content: space-between;
+
+}
+.manage{margin-top:35px;
+font-size: 20px;
+font-weight: 500;
+line-height: 21px;
+}
+.popup{
+    position: absolute;
+    background:white;
+    display:none;
+}
+.nonpopup{margin-right: 124px;height:219px;background: white;padding:26px 33px 34px 31px;}
+.nptop{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.flex{display: flex;
+flex-direction: column;
+
+margin-top:26px;
+}
+.fbottom{
+    padding-top: 37px;
+}
+.editgreen{
+    width:149px;
+    height:36px;
+    background:rgb(85 201 123);
+    color:white;
+}
+.editg{
+    
+    height:36px;
+    background:rgb(85 201 123);
+    color:white;
+}
+.fbottomb{margin-top: 26.5px;}
+.npbottom{
+    display:flex;
+    justify-content: space-between;
+}
+
