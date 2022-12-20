@@ -81,7 +81,7 @@ border-radius: 5px;
     width:65px;
     height:65px;
     aspect-ratio: 1;
-    border:1px solid black;
+    border:1px solid rgb(125 125 125);
     align-items: center;
     justify-content: center;
     border-radius: 3px;
