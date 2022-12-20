@@ -29,12 +29,15 @@ padding: 25px 25px 25px 0px;
 background: white;
 
 }
-.left{margin-top:20px;
+.left{margin-top:0px;
 color:rgba(125 125 125 1);
 display:flex;
 align-items: center;
 font-size: 14px;
 padding-left:25px;
+padding-top:10px;
+padding-bottom:10px;
+
 
 }
 .topstore{
