@@ -23,7 +23,9 @@ width:auto;
     #left{width:100%;}
     #main{flex-direction: column;
         min-height:300vh}
-        .popup{max-width:90%;margin-left: 5%;}
+        .popup{max-width:90%;margin-left: 5%;
+        margin-top:-150px;
+        }
         .nonpopup{margin-right: 0px;}
         #right{margin-left:0px;}
         
@@ -34,6 +36,7 @@ width:auto;
         .select{flex-direction: column;}
         .info{margin-left: 0px;}
         .pbright{margin-top: 20px;}
+        .inp{padding-left: 3px;}
       
         
 }
