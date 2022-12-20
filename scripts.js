@@ -1,3 +1,11 @@
+function popup(){
+    document.getElementsByClassName('popup')[0].style.display='block'
+}
+function cl(){
+    document.getElementsByClassName('popup')[0].style.display='none'
+}
+
+
 let left=document.getElementsByClassName('left');
 let leftimg=document.getElementsByClassName('leftimg');
 left[0].addEventListener('mouseover',function(){leftimg[0].src='./blue/web-page-home.png'})

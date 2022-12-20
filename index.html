@@ -44,14 +44,51 @@
 <div class="right-top">
 <div class="top-left">
   <div>Главная>Мои магазины</div>
-  <button class="create">+ Создать свой магазин</button>
+  <button onclick="popup()" class="create">+ Создать свой магазин</button>
 </div>
 <div class="top-right">right</div>
 
 </div>
 <h1 class="manage">Управление магазинами</h1>
 <div class="big">
-  <div class="popup">POPUP</div>
+
+
+  <div class="popup">
+<div class="popuptop">
+  <h1 >Создать магазин</h1><i style="font-size:20px;" onclick="cl()" class="fa fa-close"></i>
+</div>
+<div class="select">
+  <div>
+    <p class="p">Шаблон</p>
+    <select>
+      <option>Стандартный</option>
+    </select>
+  </div>
+  <div>
+    <p class="p">Цветовая схема</p>
+    <select>
+      <option>Классическая</option>
+    </select>
+  </div>
+  
+    </div>
+
+    <div class="domain">
+   <div>Домен</div>
+   <div class="inputs"><input class="inp" placeholder="Например: ivangrozniy"><input class='submit'type="submit" value=".work5.ru"></div>
+
+    </div>
+<div class="info">В названии домена разрешены латиница и “-”, запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее по <a href="#"> ссылке</a></div>
+
+
+<div class="pbottom">
+
+  <button class="pbleft">Отмена</button>
+  <button class="pbright">Создать</button>
+</div>
+  </div>
+
+
 <div class="nonpopup">
 <div class="nptop">
     <div class="flex">
@@ -78,7 +115,9 @@
           </div>
 
 
-</div><hr>
+</div>
+
+
 <div class="npbottom">
     <div class="us">12345</div>
     <div class="us">Дипломная работа</div>
