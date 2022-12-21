@@ -29,8 +29,9 @@ padding: 25px 25px 25px 0px;
 background: white;
 
 }
+
 .left{margin-top:0px;
-color:rgba(125 125 125 1);
+color:#7b7b7b;
 display:flex;
 align-items: center;
 font-size: 14px;
@@ -92,7 +93,7 @@ border-radius: 5px;
     width:65px;
     height:65px;
     aspect-ratio: 1;
-    border:1px solid rgb(125 125 125);
+    border:1px solid rgb(224 224 224);
     align-items: center;
     justify-content: center;
     border-radius: 3px;
@@ -151,7 +152,7 @@ width:100%;
 margin-top:29px;
 
 }
-.inputs{display: flex;}
+.inputs{display: flex;margin-top: 7px;}
 .inp{
 
 width:416px;
