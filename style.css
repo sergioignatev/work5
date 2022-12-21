@@ -10,7 +10,7 @@ button{border:none;
     height:36px;
     background:rgb(177 177 177);
     color:white;
-    font-size: 12px;
+    font-size: 13px;
 }
 select{width:240px;
 height: 36px;
@@ -129,7 +129,7 @@ font-family: Roboto,sans-serif;
     padding-left: 30px;
     padding-right: 20px;
     
-    box-shadow: 0px 3px 3px 8px lightgrey;
+    box-shadow: 0px 3px 3px 8px whitesmoke;
 }
 .popuptop{
     width:100%;
@@ -196,7 +196,7 @@ margin-left:15px;
     background: rgb(85 201 123);
 }
 
-.nonpopup{margin-top:29px;margin-right: 124px;background: white;padding:0px 33px 0px 31px;}
+.nonpopup{margin-top:29px;margin-right: 124px;background: white;padding:0px 33px 0px 31px;box-shadow: 0px 3px 3px 8px whitesmoke;}
 .nptop{
     display:flex;
     justify-content: space-between;
@@ -216,12 +216,12 @@ margin-top:26px;
     height:36px;
     background:rgb(85 201 123);
     color:white;
+    font-size: 13px;
 }
-.editg{
+.egitg{
     
-    height:36px;
-    background:rgb(85 201 123);
-    color:white;
+  
+    font-size: 13px;
 }
 .ftop{
 font-weight: 500;

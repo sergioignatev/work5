@@ -7,7 +7,7 @@
 
 } 
 }
-@media(max-width:1000px){
+@media(max-width:1030px){
     .nptop,.npbottom{flex-direction: column;}
     .flex{flex-direction: row;}
     .fbottom{padding-top: 0px;margin-left: 20px;}
