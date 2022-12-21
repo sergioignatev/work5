@@ -12,14 +12,14 @@ function swit(){
     let mount=document.getElementsByClassName('logos')[0];
     if(mount.style.display=="block"){
         mount.style.display="none";
-        document.querySelector('i').classList.add("fa-angle-up")
-        document.querySelector('i').classList.remove("fa-angle-down");
+        document.querySelector('i').classList.add("fa-fa-bars")
+        document.querySelector('i').classList.remove("fa-window-close");
         
     }else{
         
         mount.style.display="block";
-        document.querySelector('i').classList.remove("fa-angle-up")
-        document.querySelector('i').classList.add("fa-angle-down");
+        document.querySelector('i').classList.remove("fa-fa-bars")
+        document.querySelector('i').classList.add("fa-window-close");
         
 
 
