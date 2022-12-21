@@ -21,7 +21,7 @@
 @media (max-width:700px) {
 #switch{display:block;}
 
-.logos{display: none;border-left:1px solid red;}
+.logos{display: none;}
     .editgreen{margin-bottom: 20px;}
     .inp{width:70%;}
     .submit{width:30%;}
