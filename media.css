@@ -46,3 +46,8 @@
       
         
 }
+@media (max-width:650px) {
+    .info-img{display: none;}
+    .info-text{margin-left: 0px;}
+    
+}
